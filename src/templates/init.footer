@@ -1,0 +1,35 @@
+
+load_modules() {
+    for m in $MODULES
+    do
+	source "$MODULE_PATH/$m/$m.sh"
+	source "$MODULE_PATH/$m/$m-hooks.sh"
+    done
+}
+
+run_hooks() {
+    for p in 1 2 3 4 5 6 7 8 9
+    do
+	for m in $MODULES
+	do
+	    if [ $p = "$m_$1_priority" ]
+	    then
+		   eval "$m_$1_hook"
+	    fi
+	done
+    done
+}
+
+if ! (printf "$MODULES" | grep 'base' -q)
+then
+    printf "The 'base' module is not listed. Automatically adding it.\n"
+    MODULES="base $MODULES"
+fi
+
+load_modules
+
+run_hooks 'early_setup'
+run_hooks 'setup'
+run_hooks 'pre_mount_root'
+run_hooks 'post_mount_root'
+run_hooks 'final'

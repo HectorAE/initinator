@@ -22,4 +22,4 @@ User Group, and someone immediately suggested "initinator", so it seemed like
 it was meant to be. The "-inator" prefix comes from the habit of the character
 Dr. Doofenshmirtz (from the recently popular animated children's television
 show "Phineas and Ferb") of naming all his evil inventions in the form
-<verb>-inator, no matter how ridiculous that sounded.
+_verb_-inator, no matter how ridiculous that sounded.

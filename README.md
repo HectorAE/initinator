@@ -18,8 +18,9 @@ Origin of the name
 
 When I first had the idea for this project, I had a hard time coming up with a
 good name. I decided to bring it up at a fall 2015 meeting of the RIT Linux
-User Group, and someone immediately suggested "initinator", so it seemed like
-it was meant to be. The "-inator" prefix comes from the habit of the character
-Dr. Doofenshmirtz (from the recently popular animated children's television
-show "Phineas and Ferb") of naming all his evil inventions in the form
-_verb_-inator, no matter how ridiculous that sounded.
+User Group, and [Nate Levesque](https://github.com/thenaterhood) immediately
+suggested "initinator", so it seemed like it was meant to be. The "-inator"
+prefix comes from the habit of the character Dr. Doofenshmirtz (from the
+recently popular animated children's television show "Phineas and Ferb") of
+naming all his evil inventions in the form _verb_-inator, no matter how
+ridiculous that sounded.
